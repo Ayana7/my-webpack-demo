@@ -7,6 +7,8 @@ import MovieView from '../views/MovieView'
 import BookView from '../views/BookView'
 import StatusView from '../views/StatusView'
 import GroupView from '../views/GroupView'
+import DetailView from '../views/DetailView'
+
 
 Vue.use(VueRouter)
 
@@ -48,6 +50,11 @@ export default new VueRouter({
           path: 'group',
           name: 'GroupView',
           component: GroupView
+        },
+        {
+          path: 'detail/:id',
+          name: 'DetailView',
+          component: DetailView
         }
       ]
     },

@@ -1,5 +1,5 @@
 <template>
-  <div class="he-nav">
+  <div class="he-nav has-header">
     <ul class="quick-nav">
       <li>
         <router-link :to="{name: 'MovieView'}">影院热映</router-link>
@@ -25,7 +25,6 @@
 
 <style scoped lang="scss" >
   .he-nav {
-    margin-top: 4.7rem;
 
     ul {
       list-style: none;
@@ -39,6 +38,7 @@
         padding: 1.2rem;
         box-sizing: border-box;
         font-size: 1.5rem;
+        text-align: center;
       }
       a{
         display: block;

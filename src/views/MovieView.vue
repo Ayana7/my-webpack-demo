@@ -1,5 +1,5 @@
 <template>
-  <div class="movie-view">
+  <div class="movie-view has-header">
     movie
   </div>
 </template>

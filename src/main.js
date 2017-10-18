@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 import 'normalize.css'
 
 Vue.config.productionTip = false
@@ -13,6 +14,7 @@ Vue.use({ router: router})
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })
