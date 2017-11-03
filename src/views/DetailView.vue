@@ -73,7 +73,7 @@
       ])
     },
     created () {
-      // Getting route params
+      // Getting route params 
       const id = this.$route.params.id
 
       // Dispatching getSingleEvent
